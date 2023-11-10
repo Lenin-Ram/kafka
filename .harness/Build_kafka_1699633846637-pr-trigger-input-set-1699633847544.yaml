@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kafka_1699633846637-pr-trigger-input-set
+  identifier: Build_kafka_1699633846637prtriggerinputset
+  orgIdentifier: Lenin_Playground
+  projectIdentifier: Lenin
+  pipeline:
+    identifier: Build_kafka_1699633846637
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
