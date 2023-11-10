@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kafka_1699633846637-push-trigger-input-set
+  identifier: Build_kafka_1699633846637pushtriggerinputset
+  orgIdentifier: Lenin_Playground
+  projectIdentifier: Lenin
+  pipeline:
+    identifier: Build_kafka_1699633846637
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
